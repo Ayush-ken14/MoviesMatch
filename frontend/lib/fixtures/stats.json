@@ -1,0 +1,161 @@
+{
+ "corpus_size": 9500,
+ "genres": [
+  {
+   "name": "Drama",
+   "count": 3618
+  },
+  {
+   "name": "Comedy",
+   "count": 2976
+  },
+  {
+   "name": "Action",
+   "count": 2600
+  },
+  {
+   "name": "Thriller",
+   "count": 2368
+  },
+  {
+   "name": "Adventure",
+   "count": 1792
+  },
+  {
+   "name": "Romance",
+   "count": 1433
+  },
+  {
+   "name": "Animation",
+   "count": 1411
+  },
+  {
+   "name": "Horror",
+   "count": 1388
+  },
+  {
+   "name": "Family",
+   "count": 1366
+  },
+  {
+   "name": "Fantasy",
+   "count": 1263
+  },
+  {
+   "name": "Science Fiction",
+   "count": 1228
+  },
+  {
+   "name": "Crime",
+   "count": 1199
+  }
+ ],
+ "decades": [
+  {
+   "name": "1900s",
+   "count": 1
+  },
+  {
+   "name": "1920s",
+   "count": 11
+  },
+  {
+   "name": "1930s",
+   "count": 28
+  },
+  {
+   "name": "1940s",
+   "count": 45
+  },
+  {
+   "name": "1950s",
+   "count": 92
+  },
+  {
+   "name": "1960s",
+   "count": 184
+  },
+  {
+   "name": "1970s",
+   "count": 244
+  },
+  {
+   "name": "1980s",
+   "count": 602
+  },
+  {
+   "name": "1990s",
+   "count": 1007
+  },
+  {
+   "name": "2000s",
+   "count": 2049
+  },
+  {
+   "name": "2010s",
+   "count": 3896
+  },
+  {
+   "name": "2020s",
+   "count": 1339
+  }
+ ],
+ "sample_queries": [
+  "mind-bending sci-fi like Inception but with more heart",
+  "cozy 90s comedies for a rainy sunday",
+  "slow-burn neo-noir crime thrillers",
+  "movies that feel like a fever dream",
+  "found-family space adventures",
+  "revenge thrillers with a female lead"
+ ],
+ "top_rated": [
+  {
+   "id": "thegodfather",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster_url": "https://image.tmdb.org/t/p/original/eEslKSwcqmiNS6va24Pbxf2UKmJ.jpg"
+  },
+  {
+   "id": "theshawshankredemption",
+   "title": "The Shawshank Redemption",
+   "year": 1994,
+   "poster_url": "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg"
+  },
+  {
+   "id": "dilwaledulhanialejayenge",
+   "title": "Dilwale Dulhania Le Jayenge",
+   "year": 1995,
+   "poster_url": "https://image.tmdb.org/t/p/original/2CAL2433ZeIihfX1Hb2139CX0pW.jpg"
+  },
+  {
+   "id": "thegodfatherpartii",
+   "title": "The Godfather: Part II",
+   "year": 1974,
+   "poster_url": "https://image.tmdb.org/t/p/original/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg"
+  },
+  {
+   "id": "schindlerslist",
+   "title": "Schindler's List",
+   "year": 1993,
+   "poster_url": "https://image.tmdb.org/t/p/original/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+  },
+  {
+   "id": "thedarkknight",
+   "title": "The Dark Knight",
+   "year": 2008,
+   "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+  },
+  {
+   "id": "yourname",
+   "title": "Your Name.",
+   "year": 2016,
+   "poster_url": "https://image.tmdb.org/t/p/original/q719jXXEzOoYaps6babgKnONONX.jpg"
+  },
+  {
+   "id": "thelordoftheringsthereturnoftheking",
+   "title": "The Lord of the Rings: The Return of the King",
+   "year": 2003,
+   "poster_url": "https://image.tmdb.org/t/p/original/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+  }
+ ]
+}

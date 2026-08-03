@@ -1,0 +1,1122 @@
+{
+ "query": "mind-bending sci-fi like Inception but with more heart",
+ "parsed": {
+  "intent": "recommend",
+  "clean_query": "mind bending science fiction emotional",
+  "genres": [
+   "Science Fiction"
+  ],
+  "moods": [
+   "cerebral",
+   "emotional"
+  ],
+  "era_from": null,
+  "era_to": null,
+  "similar_to": "Inception",
+  "keywords": [
+   "mind-bending",
+   "dream"
+  ],
+  "negations": [
+   "cold"
+  ],
+  "min_rating": null,
+  "source": "rules"
+ },
+ "engine": {
+  "fusion": "rrf",
+  "rerank": true,
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "slm": "rules",
+  "corpus_size": 9500
+ },
+ "timing_ms": {
+  "parse": 2.1,
+  "lexical": 9.4,
+  "semantic": 7.8,
+  "fusion": 0.6,
+  "rerank": 38.2,
+  "reason": 1.1,
+  "total": 59.2
+ },
+ "count": 24,
+ "results": [
+  {
+   "id": "prisoners",
+   "tmdb_id": 146233,
+   "title": "Prisoners",
+   "year": 2013,
+   "genres": [
+    "Drama",
+    "Thriller",
+    "Crime"
+   ],
+   "overview": "Keller Dover faces a parent's worst nightmare when his 6-year-old daughter, Anna, and her friend go missing. The only lead is an old motorhome that had been parked on their street. The head of the investigation, Detective Loki, arrests the driver, but a lack of evidence forces Loki to release his only suspect. Dover, knowing that his daughter's life is at stake, decides that he has no choice but to take matters into his own hands.",
+   "tagline": "Every moment matters.",
+   "poster_url": "https://image.tmdb.org/t/p/original/tuZhZ6biFMr5n9YSVuHOJnNL1uU.jpg",
+   "vote_average": 8.0,
+   "vote_count": 8998,
+   "popularity": 57.778,
+   "language": "en",
+   "cast": [],
+   "director": "Denis Villeneuve",
+   "keywords": [
+    "pennsylvania",
+    "kidnapping",
+    "maze",
+    "vigilante",
+    "rural",
+    "setting"
+   ],
+   "runtime": 153,
+   "semantic_text": "Prisoners (2013) Genres: Drama, Thriller, Crime. Every moment matters. Keller Dover faces a parent's worst nightmare when his 6-year-old daughter, Anna, and her friend go missing. The only lead is an old motorhome that had been parked on their street. The head of the investigation, Detective Loki, arrests the driver, but a lack of evidence forces Loki to release his only suspect. Dover, knowing that his daughter's life is at stake, decides that he has no choice but to take matters into his own hands. Directed by Denis Villeneuve. Starring Hugh Jackman Jake Gyllenhaal Paul Dano Maria Bello Melissa Leo. Themes: pennsylvania, kidnapping, maze, vigilante, rural, setting.",
+   "lexical_text": "Prisoners Drama Thriller Crime Drama Thriller Crime Keller Dover faces a parent's worst nightmare when his 6-year-old daughter, Anna, and her friend go missing. The only lead is an old motorhome that had been parked on their street. The head of the investigation, Detective Loki, arrests the driver, but a lack of evidence forces Loki to release his only suspect. Dover, knowing that his daughter's life is at stake, decides that he has no choice but to take matters into his own hands. Every moment matters. pennsylvania kidnapping maze vigilante rural setting Hugh Jackman Jake Gyllenhaal Paul Dano Maria Bello Melissa Leo Denis Villeneuve keller dover daughter friend missing matter hand police pursue multiple lead pressure mount just far desperate father protect family drama thriller crime pennsylvania kidnapping maze vigilante rural setting candlelight vigil hugh jackman jake gyllenhaal paul dano denis villeneuve",
+   "score": 0.898,
+   "scores": {
+    "lexical": 0.917,
+    "semantic": 0.732,
+    "fusion": 0.825,
+    "rerank": 0.898,
+    "lexical_rank": 20,
+    "semantic_rank": 2
+   },
+   "match_terms": [
+    "pennsylvania",
+    "kidnapping",
+    "maze"
+   ],
+   "reason": "Directed by Denis Villeneuve, this 2013 drama shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "dune",
+   "tmdb_id": 841,
+   "title": "Dune",
+   "year": 2021,
+   "genres": [
+    "Science Fiction",
+    "Adventure"
+   ],
+   "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+   "tagline": "A world beyond your experience, beyond your imagination.",
+   "poster_url": "https://image.tmdb.org/t/p/original/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+   "vote_average": 7.9,
+   "vote_count": 6237,
+   "popularity": 394.295,
+   "language": "en",
+   "cast": [],
+   "director": "David Lynch",
+   "keywords": [
+    "prophecy",
+    "witch",
+    "monster",
+    "telepathy",
+    "atomic",
+    "bomb"
+   ],
+   "runtime": 137,
+   "semantic_text": "Dune (2021) Genres: Science Fiction, Adventure. A world beyond your experience, beyond your imagination. Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive. Directed by David Lynch. Starring Kyle MacLachlan Francesca Annis Leonardo Cimino Brad Dourif Jos\\u00e9 Ferrer. Themes: prophecy, witch, monster, telepathy, atomic, bomb.",
+   "lexical_text": "Dune Science Fiction Adventure Science Fiction Adventure Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive. A world beyond your experience, beyond your imagination. prophecy witch monster telepathy atomic bomb Kyle MacLachlan Francesca Annis Leonardo Cimino Brad Dourif Jos\\u00e9 Ferrer David Lynch year world war control desert planet dune place timetravel substance spice leader control stage coup unsavory character action science fiction adventure prophecy witch monster telepathy atomic bomb space marine emperor mutation insurgence space travel guild duke water chosen dystopia jihad spice war messiah denunciation kyle maclachlan francesca annis leonardo cimino david lynch",
+   "score": 0.881,
+   "scores": {
+    "lexical": 0.665,
+    "semantic": 0.929,
+    "fusion": 0.797,
+    "rerank": 0.881,
+    "lexical_rank": 14,
+    "semantic_rank": 10
+   },
+   "match_terms": [
+    "prophecy",
+    "witch",
+    "monster"
+   ],
+   "reason": "Directed by David Lynch, this 2021 science fiction shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "no-country-for-old-men",
+   "tmdb_id": 6977,
+   "title": "No Country for Old Men",
+   "year": 2007,
+   "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+   ],
+   "overview": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+   "tagline": "There are no clean getaways.",
+   "poster_url": "https://image.tmdb.org/t/p/original/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+   "vote_average": 7.9,
+   "vote_count": 9478,
+   "popularity": 30.562,
+   "language": "en",
+   "cast": [],
+   "director": "Joel Coen",
+   "keywords": [
+    "texas",
+    "drug",
+    "traffic",
+    "hitman",
+    "united",
+    "states\\u2013mexico",
+    "barrier",
+    "suspense"
+   ],
+   "runtime": 122,
+   "semantic_text": "No Country for Old Men (2007) Genres: Crime, Drama, Thriller. There are no clean getaways. Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide. Directed by Joel Coen. Starring Tommy Lee Jones Javier Bardem Josh Brolin Woody Harrelson Kelly Macdonald. Themes: texas, drug, traffic, hitman, united, states\\u2013mexico, barrier, suspense.",
+   "lexical_text": "No Country for Old Men Crime Drama Thriller Crime Drama Thriller Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide. There are no clean getaways. texas drug traffic hitman united states\\u2013mexico barrier suspense Tommy Lee Jones Javier Bardem Josh Brolin Woody Harrelson Kelly Macdonald Joel Coen llewelyn moss stumble dead body million hoard heroin texas desert methodical killer anton chigurh come looking local sheriff ed tom bell hot trail role prey predator blur violent pursuit money justice collide crime drama thriller texas drug traffic hitman united statesmexico barrier suspense tommy lee jones javier bardem josh brolin joel coen ethan coen",
+   "score": 0.842,
+   "scores": {
+    "lexical": 0.875,
+    "semantic": 0.654,
+    "fusion": 0.764,
+    "rerank": 0.842,
+    "lexical_rank": 18,
+    "semantic_rank": 20
+   },
+   "match_terms": [
+    "texas",
+    "drug",
+    "traffic"
+   ],
+   "reason": "Directed by Joel Coen, this 2007 crime shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "the-matrix",
+   "tmdb_id": 603,
+   "title": "The Matrix",
+   "year": 1999,
+   "genres": [
+    "Action",
+    "Science Fiction"
+   ],
+   "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+   "tagline": "Welcome to the Real World.",
+   "poster_url": "https://image.tmdb.org/t/p/original/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+   "vote_average": 8.2,
+   "vote_count": 21182,
+   "popularity": 98.071,
+   "language": "en",
+   "cast": [],
+   "director": "Lilly Wachowski",
+   "keywords": [
+    "saving",
+    "world",
+    "artificial",
+    "intelligence",
+    "man",
+    "machine",
+    "philosophy",
+    "prophecy"
+   ],
+   "runtime": 136,
+   "semantic_text": "The Matrix (1999) Genres: Action, Science Fiction. Welcome to the Real World. Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth. Directed by Lilly Wachowski. Starring Keanu Reeves Laurence Fishburne Carrie-Anne Moss Hugo Weaving Gloria Foster. Themes: saving, world, artificial, intelligence, man, machine, philosophy, prophecy.",
+   "lexical_text": "The Matrix Action Science Fiction Action Science Fiction Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth. Welcome to the Real World. saving world artificial intelligence man machine philosophy prophecy Keanu Reeves Laurence Fishburne Carrie-Anne Moss Hugo Weaving Gloria Foster Lilly Wachowski set nd century matrix tell story computer hacker join group underground insurgent fighting vast powerful computer rule earth action science fiction saving world artificial intelligence man v machine philosophy prophecy martial art self sacrifice fight insurgence virtual reality dystopia truth cyberpunk woman director messiah gnosticism keanu reef laurence fishburne carrieanne moss lana wachowski lilly wachowski",
+   "score": 0.821,
+   "scores": {
+    "lexical": 0.696,
+    "semantic": 0.694,
+    "fusion": 0.695,
+    "rerank": 0.821,
+    "lexical_rank": 6,
+    "semantic_rank": 2
+   },
+   "match_terms": [
+    "saving",
+    "world",
+    "artificial"
+   ],
+   "reason": "Directed by Lilly Wachowski, this 1999 action shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "whiplash",
+   "tmdb_id": 244786,
+   "title": "Whiplash",
+   "year": 2014,
+   "genres": [
+    "Drama",
+    "Music"
+   ],
+   "overview": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+   "tagline": "The road to greatness can take you to the edge.",
+   "poster_url": "https://image.tmdb.org/t/p/original/oPxnRhyAIzJKGUEdSiwTJQBa3NM.jpg",
+   "vote_average": 8.4,
+   "vote_count": 11923,
+   "popularity": 51.21,
+   "language": "en",
+   "cast": [],
+   "director": "Damien Chazelle",
+   "keywords": [
+    "jazz",
+    "obsession",
+    "conservatory",
+    "music",
+    "teacher",
+    "new",
+    "york",
+    "city"
+   ],
+   "runtime": 105,
+   "semantic_text": "Whiplash (2014) Genres: Drama, Music. The road to greatness can take you to the edge. Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity. Directed by Damien Chazelle. Starring Miles Teller J.K. Simmons Melissa Benoist Austin Stowell Jayson Blair. Themes: jazz, obsession, conservatory, music, teacher, new, york, city.",
+   "lexical_text": "Whiplash Drama Music Drama Music Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity. The road to greatness can take you to the edge. jazz obsession conservatory music teacher new york city Miles Teller J.K. Simmons Melissa Benoist Austin Stowell Jayson Blair Damien Chazelle ferocious bullying music teacher teach dedicated student min short film feature film wa based drama music drummer jazz band johnny simmons jk simmons nate lang damien chazelle",
+   "score": 0.797,
+   "scores": {
+    "lexical": 0.648,
+    "semantic": 0.761,
+    "fusion": 0.705,
+    "rerank": 0.797,
+    "lexical_rank": 11,
+    "semantic_rank": 15
+   },
+   "match_terms": [
+    "jazz",
+    "obsession",
+    "conservatory"
+   ],
+   "reason": "Directed by Damien Chazelle, this 2014 drama shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "drive",
+   "tmdb_id": 64690,
+   "title": "Drive",
+   "year": 2011,
+   "genres": [
+    "Drama",
+    "Thriller",
+    "Crime"
+   ],
+   "overview": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
+   "tagline": "There are no clean getaways.",
+   "poster_url": "https://image.tmdb.org/t/p/original/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+   "vote_average": 7.6,
+   "vote_count": 10149,
+   "popularity": 69.175,
+   "language": "en",
+   "cast": [],
+   "director": "Nicolas Winding Refn",
+   "keywords": [
+    "stuntman",
+    "blood",
+    "splatter",
+    "independent",
+    "film",
+    "police",
+    "chase",
+    "extreme",
+    "violence"
+   ],
+   "runtime": 100,
+   "semantic_text": "Drive (2011) Genres: Drama, Thriller, Crime. There are no clean getaways. Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery. Directed by Nicolas Winding Refn. Starring Ryan Gosling Carey Mulligan Bryan Cranston Albert Brooks Oscar Isaac. Themes: stuntman, blood, splatter, independent, film, police, chase, extreme, violence.",
+   "lexical_text": "Drive Drama Thriller Crime Drama Thriller Crime Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery. There are no clean getaways. stuntman blood splatter independent film police chase extreme violence Ryan Gosling Carey Mulligan Bryan Cranston Albert Brooks Oscar Isaac Nicolas Winding Refn drive follows toby wong mark dacascos employer hong kongs leung corporation implanted chest bioenergy module enhances physical ability toby ha escaped leung corporation control making way los angeles competing company ha offered remove implant life backafter arriving san francisco toby encounter desparation kidnaps malik brodie kadeem hardison ha mean los angeles following close professional assassin junkculture connoisseur vic madison john pyperferguson hedgehog tracey walter pursuing toby employ leung corporation president mr lau james shigeta action adventure science fiction comedy electromagnetic pulse virtual reality independent film boarding house boat chase best friend golden gate bridge chainsaw reverse footage mark dacascos kadeem hardison john pyperferguson steve wang",
+   "score": 0.788,
+   "scores": {
+    "lexical": 0.927,
+    "semantic": 0.538,
+    "fusion": 0.733,
+    "rerank": 0.788,
+    "lexical_rank": 17,
+    "semantic_rank": 26
+   },
+   "match_terms": [
+    "stuntman",
+    "blood",
+    "splatter"
+   ],
+   "reason": "Directed by Nicolas Winding Refn, this 2011 drama shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "shutter-island",
+   "tmdb_id": 11324,
+   "title": "Shutter Island",
+   "year": 2010,
+   "genres": [
+    "Drama",
+    "Thriller",
+    "Mystery"
+   ],
+   "overview": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by his troubling visions and also by a mysterious doctor.",
+   "tagline": "Someone is missing.",
+   "poster_url": "https://image.tmdb.org/t/p/original/kve20tXwUZpu4GUX8l6X7Z4jmL6.jpg",
+   "vote_average": 8.2,
+   "vote_count": 19491,
+   "popularity": 55.023,
+   "language": "en",
+   "cast": [],
+   "director": "Martin Scorsese",
+   "keywords": [
+    "based",
+    "novel",
+    "island",
+    "hurricane",
+    "investigation",
+    "psychiatric",
+    "hospital"
+   ],
+   "runtime": 138,
+   "semantic_text": "Shutter Island (2010) Genres: Drama, Thriller, Mystery. Someone is missing. World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by his troubling visions and also by a mysterious doctor. Directed by Martin Scorsese. Starring Leonardo DiCaprio Mark Ruffalo Ben Kingsley Emily Mortimer Michelle Williams. Themes: based, novel, island, hurricane, investigation, psychiatric, hospital.",
+   "lexical_text": "Shutter Island Drama Thriller Mystery Drama Thriller Mystery World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by his troubling visions and also by a mysterious doctor. Someone is missing. based novel island hurricane investigation psychiatric hospital Leonardo DiCaprio Mark Ruffalo Ben Kingsley Emily Mortimer Michelle Williams Martin Scorsese world war ii soldierturnedus marshal teddy daniel investigates disappearance patient hospital criminally insane effort compromised troubling vision mysterious doctor drama thriller mystery based novel island hurricane investigation psychiatric hospital u marshal conspiracy theory s leonardo dicaprio mark ruffalo ben kingsley martin scorsese",
+   "score": 0.78,
+   "scores": {
+    "lexical": 0.558,
+    "semantic": 0.961,
+    "fusion": 0.76,
+    "rerank": 0.78,
+    "lexical_rank": 23,
+    "semantic_rank": 20
+   },
+   "match_terms": [
+    "based",
+    "novel",
+    "island"
+   ],
+   "reason": "Directed by Martin Scorsese, this 2010 drama shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "ex-machina",
+   "tmdb_id": 264660,
+   "title": "Ex Machina",
+   "year": 2014,
+   "genres": [
+    "Drama",
+    "Science Fiction"
+   ],
+   "overview": "Caleb, a coder at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world's first true artificial intelligence, housed in the body of a beautiful robot girl.",
+   "tagline": "There is nothing more human than the will to survive",
+   "poster_url": "https://image.tmdb.org/t/p/original/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg",
+   "vote_average": 7.6,
+   "vote_count": 11034,
+   "popularity": 27.676,
+   "language": "en",
+   "cast": [],
+   "director": "Alex Garland",
+   "keywords": [
+    "dancing",
+    "artificial",
+    "intelligence",
+    "distrust",
+    "isolation",
+    "technology"
+   ],
+   "runtime": 108,
+   "semantic_text": "Ex Machina (2014) Genres: Drama, Science Fiction. There is nothing more human than the will to survive Caleb, a coder at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world's first true artificial intelligence, housed in the body of a beautiful robot girl. Directed by Alex Garland. Starring Domhnall Gleeson Alicia Vikander Oscar Isaac Sonoya Mizuno Corey Johnson. Themes: dancing, artificial, intelligence, distrust, isolation, technology.",
+   "lexical_text": "Ex Machina Drama Science Fiction Drama Science Fiction Caleb, a coder at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world's first true artificial intelligence, housed in the body of a beautiful robot girl. There is nothing more human than the will to survive dancing artificial intelligence distrust isolation technology Domhnall Gleeson Alicia Vikander Oscar Isaac Sonoya Mizuno Corey Johnson Alex Garland caleb year old coder world largest internet company win competition spend week private mountain retreat belonging nathan reclusive ceo company caleb arrives remote location participate strange fascinating experiment interact world true artificial intelligence housed body beautiful robot girl drama science fiction dancing artificial intelligence distrust isolation technology manipulation friendship deception laboratory robot power outage surveillance camera consciousness existentialism lockdown philosophical robot human relationship turing test cybernetics domhnall gleeson alicia vikander oscar isaac alex garland",
+   "score": 0.779,
+   "scores": {
+    "lexical": 0.789,
+    "semantic": 0.652,
+    "fusion": 0.721,
+    "rerank": 0.779,
+    "lexical_rank": 21,
+    "semantic_rank": 22
+   },
+   "match_terms": [
+    "dancing",
+    "artificial",
+    "intelligence"
+   ],
+   "reason": "Directed by Alex Garland, this 2014 drama shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "looper",
+   "tmdb_id": 59967,
+   "title": "Looper",
+   "year": 2012,
+   "genres": [
+    "Action",
+    "Thriller",
+    "Science Fiction"
+   ],
+   "overview": "In the futuristic action thriller Looper, time travel will be invented but it will be illegal and only available on the black market. When the mob wants to get rid of someone, they will send their target 30 years into the past where a looper, a hired gun, like Joe is waiting to mop up. Joe is getting rich and life is good until the day the mob decides to close the loop, sending back Joe's future self for assassination.",
+   "tagline": "Hunted By Your Future, Haunted By Your Past",
+   "poster_url": "https://image.tmdb.org/t/p/original/sNjL6SqErDBE8OUZlrDLkexfsCj.jpg",
+   "vote_average": 6.9,
+   "vote_count": 8754,
+   "popularity": 46.472,
+   "language": "en",
+   "cast": [],
+   "director": "Rian Johnson",
+   "keywords": [
+    "suicide",
+    "assassin",
+    "drug",
+    "addiction",
+    "future",
+    "time",
+    "travel"
+   ],
+   "runtime": 118,
+   "semantic_text": "Looper (2012) Genres: Action, Thriller, Science Fiction. Hunted By Your Future, Haunted By Your Past In the futuristic action thriller Looper, time travel will be invented but it will be illegal and only available on the black market. When the mob wants to get rid of someone, they will send their target 30 years into the past where a looper, a hired gun, like Joe is waiting to mop up. Joe is getting rich and life is good until the day the mob decides to close the loop, sending back Joe's future self for assassination. Directed by Rian Johnson. Starring Joseph Gordon-Levitt Bruce Willis Emily Blunt Paul Dano Noah Segan. Themes: suicide, assassin, drug, addiction, future, time, travel.",
+   "lexical_text": "Looper Action Thriller Science Fiction Action Thriller Science Fiction In the futuristic action thriller Looper, time travel will be invented but it will be illegal and only available on the black market. When the mob wants to get rid of someone, they will send their target 30 years into the past where a looper, a hired gun, like Joe is waiting to mop up. Joe is getting rich and life is good until the day the mob decides to close the loop, sending back Joe's future self for assassination. Hunted By Your Future, Haunted By Your Past suicide assassin drug addiction future time travel Joseph Gordon-Levitt Bruce Willis Emily Blunt Paul Dano Noah Segan Rian Johnson futuristic action thriller looper time travel invented illegal available black market mob want rid send target year past looper hired gun like joe waiting mop joe getting rich life good day mob decides close loop sending joes future self assassination action thriller science fiction suicide assassin drug addiction future time travel dystopia retirement boy murder organized crime tragedy execution violence criminal drug addict contract killer neonoir joseph gordonlevitt bruce willis emily blunt rian johnson",
+   "score": 0.767,
+   "scores": {
+    "lexical": 0.843,
+    "semantic": 0.639,
+    "fusion": 0.741,
+    "rerank": 0.767,
+    "lexical_rank": 22,
+    "semantic_rank": 22
+   },
+   "match_terms": [
+    "suicide",
+    "assassin",
+    "drug"
+   ],
+   "reason": "Directed by Rian Johnson, this 2012 action shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "interstellar",
+   "tmdb_id": 157336,
+   "title": "Interstellar",
+   "year": 2014,
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Science Fiction"
+   ],
+   "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+   "tagline": "Mankind was born on Earth. It was never meant to die here.",
+   "poster_url": "https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+   "vote_average": 8.4,
+   "vote_count": 27975,
+   "popularity": 110.531,
+   "language": "en",
+   "cast": [],
+   "director": "Christopher Nolan",
+   "keywords": [
+    "saving",
+    "world",
+    "artificial",
+    "intelligence",
+    "father",
+    "son",
+    "relationship",
+    "single",
+    "parent",
+    "nasa"
+   ],
+   "runtime": 169,
+   "semantic_text": "Interstellar (2014) Genres: Adventure, Drama, Science Fiction. Mankind was born on Earth. It was never meant to die here. The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage. Directed by Christopher Nolan. Starring Matthew McConaughey Jessica Chastain Anne Hathaway Michael Caine Casey Affleck. Themes: saving, world, artificial, intelligence, father, son, relationship, single, parent, nasa.",
+   "lexical_text": "Interstellar Adventure Drama Science Fiction Adventure Drama Science Fiction The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage. Mankind was born on Earth. It was never meant to die here. saving world artificial intelligence father son relationship single parent nasa Matthew McConaughey Jessica Chastain Anne Hathaway Michael Caine Casey Affleck Christopher Nolan interstellar chronicle adventure group explorer make use newly discovered wormhole surpass limitation human space travel conquer vast distance involved interstellar voyage adventure drama science fiction saving world artificial intelligence father son relationship single parent nasa expedition wormhole space travel famine black hole dystopia race time quantum mechanic spaceship space rescue family relationship farmhouse robot astronaut scientist father daughter relationship single father farmer space station imax astrophysics zero gravity courage time paradox relativity matthew mcconaughey jessica chastain anne hathaway christopher nolan",
+   "score": 0.754,
+   "scores": {
+    "lexical": 0.843,
+    "semantic": 0.546,
+    "fusion": 0.695,
+    "rerank": 0.754,
+    "lexical_rank": 2,
+    "semantic_rank": 30
+   },
+   "match_terms": [
+    "saving",
+    "world",
+    "artificial"
+   ],
+   "reason": "Directed by Christopher Nolan, this 2014 adventure shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "joker",
+   "tmdb_id": null,
+   "title": "Joker",
+   "year": 2019,
+   "genres": [
+    "Crime",
+    "Thriller",
+    "Drama"
+   ],
+   "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+   "tagline": null,
+   "poster_url": "https://image.tmdb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+   "vote_average": 8.2,
+   "vote_count": 20016,
+   "popularity": 155.06,
+   "language": "en",
+   "cast": [],
+   "director": null,
+   "keywords": [],
+   "runtime": null,
+   "semantic_text": "Joker (2019) Genres: Crime, Thriller, Drama. During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+   "lexical_text": "Joker Crime Thriller Drama Crime Thriller Drama During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure. map india pakistan drawn oversight ensured village paglapur didnt place country year later paglapur isolated need help resident seek help direct result left map willing accept paglapur problem jurisdiction villager decide need draw medium attention paglapur doing gain acceptance help previously denied comedy foreign akshay kumar sonakshi sinha shirish kunder",
+   "score": 0.741,
+   "scores": {
+    "lexical": 0.648,
+    "semantic": 0.89,
+    "fusion": 0.769,
+    "rerank": 0.741,
+    "lexical_rank": 19,
+    "semantic_rank": 3
+   },
+   "match_terms": [
+    "Crime",
+    "Thriller"
+   ],
+   "reason": "This 2019 crime shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "her",
+   "tmdb_id": 152601,
+   "title": "Her",
+   "year": 2013,
+   "genres": [
+    "Romance",
+    "Science Fiction",
+    "Drama"
+   ],
+   "overview": "In the not so distant future, Theodore, a lonely writer purchases a newly developed operating system designed to meet the user's every needs. To Theodore's surprise, a romantic relationship develops between him and his operating system. This unconventional love story blends science fiction and romance in a sweet tale that explores the nature of love and the ways that technology isolates and connects us all.",
+   "tagline": "A Spike Jonze Love Story",
+   "poster_url": "https://image.tmdb.org/t/p/original/yk4J4aewWYNiBhD49WD7UaBBn37.jpg",
+   "vote_average": 7.9,
+   "vote_count": 11883,
+   "popularity": 32.514,
+   "language": "en",
+   "cast": [],
+   "director": "Spike Jonze",
+   "keywords": [
+    "artificial",
+    "intelligence",
+    "computer",
+    "love",
+    "loneliness",
+    "transhumanism"
+   ],
+   "runtime": 126,
+   "semantic_text": "Her (2013) Genres: Romance, Science Fiction, Drama. A Spike Jonze Love Story In the not so distant future, Theodore, a lonely writer purchases a newly developed operating system designed to meet the user's every needs. To Theodore's surprise, a romantic relationship develops between him and his operating system. This unconventional love story blends science fiction and romance in a sweet tale that explores the nature of love and the ways that technology isolates and connects us all. Directed by Spike Jonze. Starring Joaquin Phoenix Scarlett Johansson Rooney Mara Amy Adams Olivia Wilde. Themes: artificial, intelligence, computer, love, loneliness, transhumanism.",
+   "lexical_text": "Her Romance Science Fiction Drama Romance Science Fiction Drama In the not so distant future, Theodore, a lonely writer purchases a newly developed operating system designed to meet the user's every needs. To Theodore's surprise, a romantic relationship develops between him and his operating system. This unconventional love story blends science fiction and romance in a sweet tale that explores the nature of love and the ways that technology isolates and connects us all. A Spike Jonze Love Story artificial intelligence computer love loneliness transhumanism Joaquin Phoenix Scarlett Johansson Rooney Mara Amy Adams Olivia Wilde Spike Jonze distant future theodore lonely writer purchase newly developed operating designed meet user need theordores surprise romantic relationship develops operating unconventional love story blend science fiction romance sweet tale explores nature love way technology isolates connects u romance science fiction drama artificial intelligence computer love loneliness transhumanism heartbreak near future singularity bittersweet joaquin phoenix scarlett johansson rooney mara spike jonze",
+   "score": 0.732,
+   "scores": {
+    "lexical": 0.804,
+    "semantic": 0.574,
+    "fusion": 0.689,
+    "rerank": 0.732,
+    "lexical_rank": 16,
+    "semantic_rank": 2
+   },
+   "match_terms": [
+    "artificial",
+    "intelligence",
+    "computer"
+   ],
+   "reason": "Directed by Spike Jonze, this 2013 romance shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "the-grand-budapest-hotel",
+   "tmdb_id": 120467,
+   "title": "The Grand Budapest Hotel",
+   "year": 2014,
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+   "tagline": "A perfect holiday without leaving home.",
+   "poster_url": "https://image.tmdb.org/t/p/original/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+   "vote_average": 8.1,
+   "vote_count": 12055,
+   "popularity": 36.5,
+   "language": "en",
+   "cast": [],
+   "director": "Wes Anderson",
+   "keywords": [
+    "hotel",
+    "painting",
+    "wartime",
+    "gunfight",
+    "theft"
+   ],
+   "runtime": 99,
+   "semantic_text": "The Grand Budapest Hotel (2014) Genres: Comedy, Drama. A perfect holiday without leaving home. The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century. Directed by Wes Anderson. Starring Ralph Fiennes Tony Revolori F. Murray Abraham Mathieu Amalric Adrien Brody. Themes: hotel, painting, wartime, gunfight, theft.",
+   "lexical_text": "The Grand Budapest Hotel Comedy Drama Comedy Drama The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century. A perfect holiday without leaving home. hotel painting wartime gunfight theft Ralph Fiennes Tony Revolori F. Murray Abraham Mathieu Amalric Adrien Brody Wes Anderson grand budapest hotel tell legendary concierge famous european hotel war friendship young employee trusted protg story involves theft recovery priceless renaissance painting battle enormous family fortune slow sudden upheaval transformed europe half th century comedy drama hotel painting wartime gunfight theft mentor protg relationship european hotel lobby renaissance painting ralph fiennes tony revolori f murray abraham wes anderson",
+   "score": 0.723,
+   "scores": {
+    "lexical": 0.701,
+    "semantic": 0.722,
+    "fusion": 0.712,
+    "rerank": 0.723,
+    "lexical_rank": 12,
+    "semantic_rank": 26
+   },
+   "match_terms": [
+    "hotel",
+    "painting",
+    "wartime"
+   ],
+   "reason": "Directed by Wes Anderson, this 2014 comedy shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "gone-girl",
+   "tmdb_id": 210577,
+   "title": "Gone Girl",
+   "year": 2014,
+   "genres": [
+    "Mystery",
+    "Thriller",
+    "Drama"
+   ],
+   "overview": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+   "tagline": "You don't know what you've got 'til it's...",
+   "poster_url": "https://image.tmdb.org/t/p/original/qymaJhucquUwjpb8oiqynMeXnID.jpg",
+   "vote_average": 7.9,
+   "vote_count": 15481,
+   "popularity": 58.122,
+   "language": "en",
+   "cast": [],
+   "director": "David Fincher",
+   "keywords": [
+    "based",
+    "novel",
+    "marriage",
+    "crisis",
+    "disappearance",
+    "cheating",
+    "husband",
+    "missing",
+    "person"
+   ],
+   "runtime": 145,
+   "semantic_text": "Gone Girl (2014) Genres: Mystery, Thriller, Drama. You don't know what you've got 'til it's... With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent. Directed by David Fincher. Starring Ben Affleck Rosamund Pike Carrie Coon Neil Patrick Harris Tyler Perry. Themes: based, novel, marriage, crisis, disappearance, cheating, husband, missing, person.",
+   "lexical_text": "Gone Girl Mystery Thriller Drama Mystery Thriller Drama With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent. You don't know what you've got 'til it's... based novel marriage crisis disappearance cheating husband missing person Ben Affleck Rosamund Pike Carrie Coon Neil Patrick Harris Tyler Perry David Fincher wife disappearance having focus intense medium circus man spotlight turned suspected innocent mystery thriller drama based novel marriage crisis disappearance cheating husband missing person search party criminal lawyer wife murder murder suspect missing wife ben affleck rosamund pike carrie coon david fincher",
+   "score": 0.672,
+   "scores": {
+    "lexical": 0.715,
+    "semantic": 0.536,
+    "fusion": 0.625,
+    "rerank": 0.672,
+    "lexical_rank": 15,
+    "semantic_rank": 6
+   },
+   "match_terms": [
+    "based",
+    "novel",
+    "marriage"
+   ],
+   "reason": "Directed by David Fincher, this 2014 mystery shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "pulp-fiction",
+   "tmdb_id": 680,
+   "title": "Pulp Fiction",
+   "year": 1994,
+   "genres": [
+    "Thriller",
+    "Crime"
+   ],
+   "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+   "tagline": "Just because you are a character doesn't mean you have character.",
+   "poster_url": "https://image.tmdb.org/t/p/original/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+   "vote_average": 8.5,
+   "vote_count": 22733,
+   "popularity": 55.352,
+   "language": "en",
+   "cast": [],
+   "director": "Quentin Tarantino",
+   "keywords": [
+    "transporter",
+    "brothel",
+    "drug",
+    "dealer",
+    "boxer",
+    "massage"
+   ],
+   "runtime": 154,
+   "semantic_text": "Pulp Fiction (1994) Genres: Thriller, Crime. Just because you are a character doesn't mean you have character. A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time. Directed by Quentin Tarantino. Starring John Travolta Samuel L. Jackson Uma Thurman Bruce Willis Ving Rhames. Themes: transporter, brothel, drug, dealer, boxer, massage.",
+   "lexical_text": "Pulp Fiction Thriller Crime Thriller Crime A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time. Just because you are a character doesn't mean you have character. transporter brothel drug dealer boxer massage John Travolta Samuel L. Jackson Uma Thurman Bruce Willis Ving Rhames Quentin Tarantino burgerloving hit man philosophical partner drugaddled gangster moll washedup boxer converge sprawling comedic crime caper adventure unfurl story ingeniously trip forth time thriller crime transporter brothel drug dealer boxer massage stolen money crime bos dance contest junkyard kamikaze ambiguous ending briefcase redemption heirloom pulp fiction reference al green theft brutality john travolta samuel l jackson uma thurman quentin tarantino",
+   "score": 0.656,
+   "scores": {
+    "lexical": 0.684,
+    "semantic": 0.565,
+    "fusion": 0.625,
+    "rerank": 0.656,
+    "lexical_rank": 7,
+    "semantic_rank": 18
+   },
+   "match_terms": [
+    "transporter",
+    "brothel",
+    "drug"
+   ],
+   "reason": "Directed by Quentin Tarantino, this 1994 thriller shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "get-out",
+   "tmdb_id": null,
+   "title": "Get Out",
+   "year": 2017,
+   "genres": [
+    "Mystery",
+    "Thriller",
+    "Horror"
+   ],
+   "overview": "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
+   "tagline": null,
+   "poster_url": "https://image.tmdb.org/t/p/original/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+   "vote_average": 7.6,
+   "vote_count": 13883,
+   "popularity": 52.229,
+   "language": "en",
+   "cast": [],
+   "director": null,
+   "keywords": [],
+   "runtime": null,
+   "semantic_text": "Get Out (2017) Genres: Mystery, Thriller, Horror. Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
+   "lexical_text": "Get Out Mystery Thriller Horror Mystery Thriller Horror Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined. doctor unrelentingly try convince phobic guy come isolation room comedy animation jacques briere philippe peythieu charlotte boisson julien fourvel",
+   "score": 0.644,
+   "scores": {
+    "lexical": 0.458,
+    "semantic": 0.882,
+    "fusion": 0.67,
+    "rerank": 0.644,
+    "lexical_rank": 13,
+    "semantic_rank": 10
+   },
+   "match_terms": [
+    "Mystery",
+    "Thriller"
+   ],
+   "reason": "This 2017 mystery shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "spirited-away",
+   "tmdb_id": 129,
+   "title": "Spirited Away",
+   "year": 2001,
+   "genres": [
+    "Animation",
+    "Family",
+    "Fantasy"
+   ],
+   "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+   "tagline": "The tunnel led Chihiro to a mysterious town...",
+   "poster_url": "https://image.tmdb.org/t/p/original/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+   "vote_average": 8.5,
+   "vote_count": 12531,
+   "popularity": 104.215,
+   "language": "ja",
+   "cast": [],
+   "director": "Hayao Miyazaki",
+   "keywords": [
+    "witch",
+    "parents",
+    "kids",
+    "relationship",
+    "magic",
+    "twilight",
+    "darkness"
+   ],
+   "runtime": 125,
+   "semantic_text": "Spirited Away (2001) Genres: Animation, Family, Fantasy. The tunnel led Chihiro to a mysterious town... A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family. Directed by Hayao Miyazaki. Starring Rumi Hiiragi Miyu Irino Mari Natsuki Takashi Naito Yasuko Sawaguchi. Themes: witch, parents, kids, relationship, magic, twilight, darkness.",
+   "lexical_text": "Spirited Away Animation Family Fantasy Animation Family Fantasy A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family. The tunnel led Chihiro to a mysterious town... witch parents kids relationship magic twilight darkness Rumi Hiiragi Miyu Irino Mari Natsuki Takashi Naito Yasuko Sawaguchi Hayao Miyazaki year old girl wanders away parent path lead world ruled strange unusual monsterlike animal parent changed pig inside bathhouse creature world wa fantasy adventure animation family witch parent child relationship magic darkness bath house ghost world parallel world amusement park youkai japanese mythology anime spirit rumi hiiragi miyu irino mari natsuki hayao miyazaki",
+   "score": 0.635,
+   "scores": {
+    "lexical": 0.421,
+    "semantic": 0.651,
+    "fusion": 0.536,
+    "rerank": 0.635,
+    "lexical_rank": 8,
+    "semantic_rank": 6
+   },
+   "match_terms": [
+    "witch",
+    "parents",
+    "kids"
+   ],
+   "reason": "Directed by Hayao Miyazaki, this 2001 animation shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "inception",
+   "tmdb_id": 27205,
+   "title": "Inception",
+   "year": 2010,
+   "genres": [
+    "Action",
+    "Science Fiction",
+    "Adventure"
+   ],
+   "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+   "tagline": "Your mind is the scene of the crime.",
+   "poster_url": "https://image.tmdb.org/t/p/original/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
+   "vote_average": 8.4,
+   "vote_count": 31077,
+   "popularity": 127.131,
+   "language": "en",
+   "cast": [],
+   "director": "Christopher Nolan",
+   "keywords": [
+    "loss",
+    "lover",
+    "dream",
+    "kidnapping",
+    "sleep",
+    "subconsciousness"
+   ],
+   "runtime": 148,
+   "semantic_text": "Inception (2010) Genres: Action, Science Fiction, Adventure. Your mind is the scene of the crime. Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious. Directed by Christopher Nolan. Starring Leonardo DiCaprio Joseph Gordon-Levitt Ellen Page Tom Hardy Ken Watanabe. Themes: loss, lover, dream, kidnapping, sleep, subconsciousness.",
+   "lexical_text": "Inception Action Science Fiction Adventure Action Science Fiction Adventure Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious. Your mind is the scene of the crime. loss lover dream kidnapping sleep subconsciousness Leonardo DiCaprio Joseph Gordon-Levitt Ellen Page Tom Hardy Ken Watanabe Christopher Nolan cobb skilled thief commits corporate espionage infiltrating subconscious target offered chance regain old life payment task considered impossible inception implantation person idea target subconscious action thriller science fiction mystery adventure loss lover dream kidnapping sleep subconsciousness heist redemption female hero leonardo dicaprio joseph gordonlevitt ellen page christopher nolan",
+   "score": 0.63,
+   "scores": {
+    "lexical": 0.544,
+    "semantic": 0.574,
+    "fusion": 0.559,
+    "rerank": 0.63,
+    "lexical_rank": 1,
+    "semantic_rank": 3
+   },
+   "match_terms": [
+    "loss",
+    "lover",
+    "dream"
+   ],
+   "reason": "Directed by Christopher Nolan, this 2010 action shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "the-dark-knight",
+   "tmdb_id": 155,
+   "title": "The Dark Knight",
+   "year": 2008,
+   "genres": [
+    "Drama",
+    "Action",
+    "Crime",
+    "Thriller"
+   ],
+   "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+   "tagline": "Why So Serious?",
+   "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+   "vote_average": 8.5,
+   "vote_count": 26994,
+   "popularity": 173.923,
+   "language": "en",
+   "cast": [],
+   "director": "Christopher Nolan",
+   "keywords": [
+    "comics",
+    "crime",
+    "fighter",
+    "secret",
+    "identity",
+    "scarecrow",
+    "sadism"
+   ],
+   "runtime": 152,
+   "semantic_text": "The Dark Knight (2008) Genres: Drama, Action, Crime, Thriller. Why So Serious? Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker. Directed by Christopher Nolan. Starring Christian Bale Heath Ledger Aaron Eckhart Michael Caine Maggie Gyllenhaal. Themes: comics, crime, fighter, secret, identity, scarecrow, sadism.",
+   "lexical_text": "The Dark Knight Drama Action Crime Thriller Drama Action Crime Thriller Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker. Why So Serious? comics crime fighter secret identity scarecrow sadism Christian Bale Heath Ledger Aaron Eckhart Michael Caine Maggie Gyllenhaal Christopher Nolan postapocalyptic world ravaged feuding warlord group desperate soldier hatch plan steal warlord treasure start new life faced threat horrific death hand warlord executioner men escape desolate forbidden land known shadowlands men flee warlord vicious assassin defending terrifying creature inhabit land action crime drama thriller kyle walsh aaron farb debra lopez drew maxwell",
+   "score": 0.62,
+   "scores": {
+    "lexical": 0.654,
+    "semantic": 0.518,
+    "fusion": 0.586,
+    "rerank": 0.62,
+    "lexical_rank": 3,
+    "semantic_rank": 3
+   },
+   "match_terms": [
+    "comics",
+    "crime",
+    "fighter"
+   ],
+   "reason": "Directed by Christopher Nolan, this 2008 drama shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "blade-runner-2049",
+   "tmdb_id": null,
+   "title": "Blade Runner 2049",
+   "year": 2017,
+   "genres": [
+    "Science Fiction",
+    "Drama"
+   ],
+   "overview": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
+   "tagline": null,
+   "poster_url": "https://image.tmdb.org/t/p/original/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+   "vote_average": 7.5,
+   "vote_count": 10484,
+   "popularity": 69.044,
+   "language": "en",
+   "cast": [],
+   "director": null,
+   "keywords": [],
+   "runtime": null,
+   "semantic_text": "Blade Runner 2049 (2017) Genres: Science Fiction, Drama. Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
+   "lexical_text": "Blade Runner 2049 Science Fiction Drama Science Fiction Drama Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
+   "score": 0.602,
+   "scores": {
+    "lexical": 0.494,
+    "semantic": 0.77,
+    "fusion": 0.632,
+    "rerank": 0.602,
+    "lexical_rank": 4,
+    "semantic_rank": 19
+   },
+   "match_terms": [
+    "Science Fiction",
+    "Drama"
+   ],
+   "reason": "This 2017 science fiction shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "mad-max-fury-road",
+   "tmdb_id": 76341,
+   "title": "Mad Max: Fury Road",
+   "year": 2015,
+   "genres": [
+    "Action",
+    "Adventure",
+    "Science Fiction"
+   ],
+   "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+   "tagline": "What a Lovely Day.",
+   "poster_url": "https://image.tmdb.org/t/p/original/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
+   "vote_average": 7.5,
+   "vote_count": 19090,
+   "popularity": 89.139,
+   "language": "en",
+   "cast": [],
+   "director": "George Miller",
+   "keywords": [
+    "future",
+    "chase",
+    "post-apocalyptic",
+    "dystopia",
+    "australia"
+   ],
+   "runtime": 120,
+   "semantic_text": "Mad Max: Fury Road (2015) Genres: Action, Adventure, Science Fiction. What a Lovely Day. An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order. Directed by George Miller. Starring Tom Hardy Charlize Theron Nicholas Hoult Hugh Keays-Byrne Josh Helman. Themes: future, chase, post-apocalyptic, dystopia, australia.",
+   "lexical_text": "Mad Max: Fury Road Action Adventure Science Fiction Action Adventure Science Fiction An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order. What a Lovely Day. future chase post-apocalyptic dystopia australia Tom Hardy Charlize Theron Nicholas Hoult Hugh Keays-Byrne Josh Helman George Miller apocalyptic story set furthest reach planet stark desert landscape humanity broken crazed fighting necessity life world exist rebel run just able restore order max man action man word seek peace mind following loss wife child aftermath chaos furiosa woman action woman belief path survival achieved make desert childhood homeland action adventure science fiction thriller future chase postapocalyptic dystopia australia rescue survival run convoy peak oil dark future tom hardy charlize theron nicholas hoult george miller",
+   "score": 0.588,
+   "scores": {
+    "lexical": 0.412,
+    "semantic": 0.78,
+    "fusion": 0.596,
+    "rerank": 0.588,
+    "lexical_rank": 9,
+    "semantic_rank": 4
+   },
+   "match_terms": [
+    "future",
+    "chase",
+    "post-apocalyptic"
+   ],
+   "reason": "Directed by George Miller, this 2015 action shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "parasite",
+   "tmdb_id": null,
+   "title": "Parasite",
+   "year": 2019,
+   "genres": [
+    "Comedy",
+    "Thriller",
+    "Drama"
+   ],
+   "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+   "tagline": null,
+   "poster_url": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+   "vote_average": 8.5,
+   "vote_count": 13240,
+   "popularity": 108.442,
+   "language": "ko",
+   "cast": [],
+   "director": null,
+   "keywords": [],
+   "runtime": null,
+   "semantic_text": "Parasite (2019) Genres: Comedy, Thriller, Drama. All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+   "lexical_text": "Parasite Comedy Thriller Drama Comedy Thriller Drama All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident. paul dean ha created deadly parasite attached stomach female companion patricia welles way destroy trying avoid ricus redneck evil government agent named merchant horror science fiction dystopia robert glaudini demi moore luca bercovici charles band",
+   "score": 0.583,
+   "scores": {
+    "lexical": 0.424,
+    "semantic": 0.609,
+    "fusion": 0.516,
+    "rerank": 0.583,
+    "lexical_rank": 5,
+    "semantic_rank": 2
+   },
+   "match_terms": [
+    "Comedy",
+    "Thriller"
+   ],
+   "reason": "This 2019 comedy shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "arrival",
+   "tmdb_id": null,
+   "title": "Arrival",
+   "year": 2016,
+   "genres": [
+    "Drama",
+    "Science Fiction",
+    "Mystery"
+   ],
+   "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+   "tagline": null,
+   "poster_url": "https://image.tmdb.org/t/p/original/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",
+   "vote_average": 7.6,
+   "vote_count": 14796,
+   "popularity": 57.979,
+   "language": "en",
+   "cast": [],
+   "director": null,
+   "keywords": [],
+   "runtime": null,
+   "semantic_text": "Arrival (2016) Genres: Drama, Science Fiction, Mystery. Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+   "lexical_text": "Arrival Drama Science Fiction Mystery Drama Science Fiction Mystery Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat. taking place alien craft land world expert linguist recruited military determine come peace threat thriller drama science fiction mystery spacecraft language loss romance alien female protagonist scientist family heartbreak based short story nonlinear timeline military alien language linguist contact communication linguistics amy adam jeremy renner forest whitaker denis villeneuve",
+   "score": 0.575,
+   "scores": {
+    "lexical": 0.679,
+    "semantic": 0.531,
+    "fusion": 0.605,
+    "rerank": 0.575,
+    "lexical_rank": 10,
+    "semantic_rank": 7
+   },
+   "match_terms": [
+    "Drama",
+    "Science Fiction"
+   ],
+   "reason": "This 2016 drama shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  },
+  {
+   "id": "the-prestige",
+   "tmdb_id": 1124,
+   "title": "The Prestige",
+   "year": 2006,
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Science Fiction"
+   ],
+   "overview": "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
+   "tagline": "Are You Watching Closely?",
+   "poster_url": "https://image.tmdb.org/t/p/original/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg",
+   "vote_average": 8.2,
+   "vote_count": 12790,
+   "popularity": 34.577,
+   "language": "en",
+   "cast": [],
+   "director": "Christopher Nolan",
+   "keywords": [
+    "competition",
+    "secret",
+    "obsession",
+    "magic",
+    "dying",
+    "death"
+   ],
+   "runtime": 130,
+   "semantic_text": "The Prestige (2006) Genres: Drama, Mystery, Science Fiction. Are You Watching Closely? A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences. Directed by Christopher Nolan. Starring Hugh Jackman Christian Bale Michael Caine Scarlett Johansson Andy Serkis. Themes: competition, secret, obsession, magic, dying, death.",
+   "lexical_text": "The Prestige Drama Mystery Science Fiction Drama Mystery Science Fiction A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences. Are You Watching Closely? competition secret obsession magic dying death Hugh Jackman Christian Bale Michael Caine Scarlett Johansson Andy Serkis Christopher Nolan mysterious story magician intense rivalry lead lifelong battle supremacy obsession deceit jealousy dangerous deadly consequence drama mystery thriller competition secret obsession magic dying death class society illusion trick hostility class rivalry hugh jackman christian bale michael caine christopher nolan",
+   "score": 0.566,
+   "scores": {
+    "lexical": 0.42,
+    "semantic": 0.529,
+    "fusion": 0.475,
+    "rerank": 0.566,
+    "lexical_rank": 24,
+    "semantic_rank": 5
+   },
+   "match_terms": [
+    "competition",
+    "secret",
+    "obsession"
+   ],
+   "reason": "Directed by Christopher Nolan, this 2006 drama shares the cerebral, dream-logic tone you're after — grounded, not cold."
+  }
+ ]
+}
