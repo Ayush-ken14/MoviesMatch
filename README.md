@@ -1,8 +1,9 @@
-## CineMatch 
+## MoviesMatch
+ 
 
 **A search-first movie discovery engine with genuine hybrid-retrieval depth and a Gotham-noir soul.**
 
-Type a title *or* a natural-language mood — `mind-bending sci-fi like Inception but with more heart`, `cozy 90s comedies for a rainy sunday` — and CineMatch returns ranked films with real posters, a transparent **match score**, a lexical-vs-semantic breakdown, and a one-line **grounded reason** for every pick. Every card has a **More like this**.
+Type a title *or* a natural-language mood — `mind-bending sci-fi like Inception but with more heart`, `cozy 90s comedies for a rainy sunday` — and MoviesMatch returns ranked films with real posters, a transparent **match score**, a lexical-vs-semantic breakdown, and a one-line **grounded reason** for every pick. Every card has a **More like this**.
 
 > Rebuilt from the ground up: **FastAPI + a real hybrid IR stack** (BM25+ ⋈ dense embeddings ⋈ cross-encoder rerank ⋈ SLM query-understanding) behind a **Next.js / TypeScript / Framer-Motion** front end.
 
@@ -73,7 +74,7 @@ Opens on **http://localhost:3000**. It talks to the backend at `NEXT_PUBLIC_API_
 brew install ollama && ollama serve      # in one shell
 ollama pull qwen2.5:3b                     # or llama3.2:3b
 ```
-CineMatch auto-detects Ollama and switches query-understanding + reasons to the model; otherwise it uses the built-in rule engine.
+MoviesMatch auto-detects Ollama and switches query-understanding + reasons to the model; otherwise it uses the built-in rule engine.
 
 ---
 
