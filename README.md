@@ -1,9 +1,6 @@
-🦇 MoviesMatch███╗   ███╗██xA0███╗██╗   ██╗██xA0██████╗███████╗███╗   ███╗██xA0██████╗████████╗██╗  ██╗
-████╗ ████║██║   ██║██║   ██║██╔════╝██╔════╝████╗ ████║██╔══██╗╚══██╔══╝██║  ██║
-██╔████╔██║██║   ██║██║   ██║██║     █████╗  ██╔████╔██║███████║   ██║   ███████║
-██║╚██╔╝██║██║   ██║╚██╗ ██╔╝██║     ██╔══╝  ██║╚██╔╝██║██╔══██║   ██║   ██╔══██║
-██║ ╚═╝ ██║╚██████╔╝ ╚████╔╝ ╚██████╗███████╗██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║
-╚═╝     ╚═╝ ╚═════╝   ╚═══╝   ╚═════╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝
+MoviesMatch
+
+
 A Search-First Movie Discovery Engine Driven by Genuine Hybrid-Retrieval DepthBuilt with a Gotham-Noir aesthetic, multi-stage neural re-ranking, and zero-hallucination explainable AI.Architecture • Search Pipeline • Quickstart • API Reference • Engineering Decisions⚡ Key Highlights🧠 True Hybrid Search Engine: Merges Exact Token Matching (BM25+) with Dense Vector Embeddings (bge-small-en-v1.5 + FAISS) using Reciprocal Rank Fusion (RRF).🎯 Multi-Stage Re-Ranking: Implements cross-encoder re-ranking (ms-marco-MiniLM-L-6-v2) over the initial candidate pool for high-precision top-$K$ ordering.🤖 SLM-Powered Query Understanding: Uses local Ollama (qwen2.5:3b) to break down natural language queries ("mind-bending sci-fi like Inception with more heart") into intent, era filters, and soft boosts.⚡ Graceful Degradation: Auto-detects missing local dependencies (e.g., missing Ollama or NLTK) and falls back to deterministic rule-based parsing without crashing or hallucinating.🔍 Grounded Explainability: Generates a real-time match breakdown (Lexical, Semantic, Fusion, Rerank) and grounded justifications for every recommendation.🦇 Gotham-Noir Experience: Custom design system built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion.🏗 System Architecture                                  ┌────────────────────────── FastAPI Engine ──────────────────────────┐
   Natural Language Query          │                                                                    │
    ┌──────────────────┐           │   ① SLM / Rules  ── Extract intent, mood, era, "like X", negations │
